@@ -1,0 +1,55 @@
+Y1. our challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+
+2. Use the 5 Day Weather Forecast Links to an external site.to retrieve weather data for cities. 
+
+3. The base URL should look like the following: 
+
+     https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
+
+4.  https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
+
+5. You will use localStorage to store any persistent data. For more information on how to work with the OpenWeather API, refer to the "Full-Stack Blog on how to use API keys"(Link)
+
+6. User Story
+
+    AS A traveler
+    I WANT to see the weather outlook for multiple cities
+    SO THAT I can plan a trip accordingly
+
+7. Acceptance Criteria
+
+    GIVEN a weather dashboard with form inputs
+    WHEN I search for a city
+    THEN I am presented with current and future conditions for that city and that city is added to the search history
+    WHEN I view current weather conditions for that city
+    THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+    WHEN I view future weather conditions for that city
+    THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+    WHEN I click on a city in the search history
+    THEN I am again presented with current and future conditions for that city
+
+8. Requirements:
+
+    - Uses the OpenWeather API to retrieve weather data
+    - Uses localStorage to store persistent data
+    - Deploy live URL
+    - Submit Github URL
+
+
+9. Before you start working with the OpenWeather API, you'll need to request an API key. To do that, visit the OpenWeather signup page and create an account.
+
+    - truthsrebirth
+    - gmail
+    - ASUpikes1
+
+    After you've created your account, if you are redirected to a page with several secondary headings (such as New Products, Services, and API Keys), click on API Keys.
+
+    If you aren't redirected to that page, click on your username in the upper right-hand corner of the window, to display a drop-down menu. From this menu, select My API Keys.
+
+    You'll receive a message that you can generate as many API keys as necessary for your subscription. In this case, though, you'll only need to generate one key.
+
+    Under Create Key, give your API key a name that's unique to your project, then click the Generate button. This will take you to a page that lists any keys that you've created. They should look like a random string of 32 characters. Copy the new key that you've created, and save it in the JavaScript file where you'll be making API calls.
+
+        Key name: API-Key-Weather6
+        Key: 00b302d41546917b937056b9a6f40975
+
