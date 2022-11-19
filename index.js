@@ -16,3 +16,8 @@ var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + 
  // Next, we concatenate the other required parameter, appid=, where we'll add the API key specific to the application.
  
  // Finally, we concatenate the APIKey variable that contains the key we obtained at the beginning of this guide.
+
+ // The Fetch API is a Web API built into the browser that allows you to make server-side API calls without having to use AJAX and install a bulky library like jQuery.
+fetch(queryURL);
+
+// I need to adjust my application to accept user input, to store in the city variable that you've created.

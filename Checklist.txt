@@ -50,9 +50,6 @@
 
     Under Create Key, give your API key a name that's unique to your project, then click the Generate button. This will take you to a page that lists any keys that you've created. They should look like a random string of 32 characters. Copy the new key that you've created, and save it in the JavaScript file where you'll be making API calls.
 
-        Key name: API-Key-Weather6
-        Key: 1e8d43ac54cddc6d28ff5880c8320a27
-
 10. According to the OpenWeather documentation on calling current weather data for one location, you can make an API call using just the city name or by using a combination of the city name, state code, and country code.
 
     For this example, we'll collect user input for just the city name and store it in a variable, as shown in the following code:
