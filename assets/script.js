@@ -44,7 +44,7 @@ class UI {
     }
 }
 
-// call the methods from other files
+// call the methods from other code blocks
 
 const fetch6 = new Fetch();
 const ui6 = new UI();
@@ -60,9 +60,9 @@ button.addEventListener("click", () => {
     // on click, we want to capture the current value
     const currentValue = search.value;
 
-// call the getCurrent() method in the fetch.js file
+// call the getCurrent() method
     fetch6.getCurrent(currentValue).then((data) => {
-// call a UI method from the ui file, pass in the data
+// call a UI method, pass in the data
         ui6.populateUI(data);
     });
 });
